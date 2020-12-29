@@ -4,14 +4,15 @@
 }
 
 #page-wrapper {
-    height: 89vh;
+    height: 74vh;
 }
 
 #main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
+    margin: auto;
+    padding-top: 8%;
     align-items: center;
 }
 
@@ -23,6 +24,7 @@ header {
 
 footer {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     background-color: #f2f2f2;
     border-top: solid thin lightgray;
@@ -43,6 +45,7 @@ footer {
 
 #profile {
     max-width: 32px;
+    border-radius: 100%;
 }
 
 #prof-bubble {
@@ -50,17 +53,30 @@ footer {
     margin-right: 24px;
 }
 
+input{    
+    display: flex;
+    background: url("pictures/search(1).svg") 2% 50%    no-repeat;
+    height:30px;   
+    }
+
 #search {
-    margin: 15px;
+    margin: 30px;
+    width: 29em;
     border: solid thin;
-    border-color: grey;
-    border-radius: 14px;
-    font-size: 16px;
-    padding: 6px 12px;
+    border-color: lightgrey;
+    border-radius: 17px;
+    font-size: 18px;
+    padding: 4px;
+    padding-left: 32px;
 }
 
 .btn {
     margin: 8px;
+    font-size: 14px;
+    border: none;
+    background-color: #f8f9fa;
+    padding: 10px 16px;
+    cursor: pointer;
 }
 
 ul {
@@ -73,7 +89,8 @@ ul {
 
 li {
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: arial;
     color: #575787;
 }
 
